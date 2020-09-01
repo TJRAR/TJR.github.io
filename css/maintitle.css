@@ -1,0 +1,26 @@
+body{
+    background-color:#ffffff;
+    font-size:100%;
+}
+#maintitlebackground{
+    margin-top:50px;
+    height:300px;
+    background-color:rgba(0, 0, 0, 0.76);
+}
+#maintitle{
+    padding-top:75px;
+    letter-spacing:100px;
+    text-align:center;
+    font-family:serif;
+    font-size:5em;
+    color:#ffffff;
+}
+#specialinfos{
+    padding-top:50px;
+    padding-right:175px;
+    text-align:right;
+    word-spacing:85px;
+    color:#ffffff;
+    font-family:sans-serif;
+    font-size:1.25em;
+}
