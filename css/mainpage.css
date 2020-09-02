@@ -38,6 +38,7 @@ body{
     height:247px;
     padding-top:35px;
     animation:TB 1s;
+    background-image:url(./img/table.png);
 }
 .table-2{
     float:left;
