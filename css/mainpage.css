@@ -45,7 +45,7 @@ body{
     width:400px;
     height:247px;
     padding-top:35px;
-    animation:TB 0.3s;
+    animation:TB 0.5s;
 }
 @keyframes MTBG{
     from{background-color:#ffe4c4}
@@ -56,6 +56,6 @@ body{
     to{color:#ffffff}
 } 
 @keyframes TB{
-    from{color:#ffe4c4;padding-top:30px}
+    from{color:#ffe4c4;padding-top:27px}
     to{color:#000000;padding-top:35px}
 }
