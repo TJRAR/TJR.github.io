@@ -28,7 +28,7 @@ body{
 }
 #classify{
     margin:auto;
-    width:850px;
+    width:830px;
     height:500px;
     background-color:#ffe4c4;
 }
@@ -37,9 +37,9 @@ body{
     width:400px;
     height:247px;
     padding-top:35px;
-    padding-left:20px;
+    padding-left:10px;
     animation:TB 1s;
-    background-image:url(https://tjrar.github.com/TJR.github.com/img/table.png);
+    background-image:url(https://tjrar.github.io/TJR.github.com/img/table.png);
 }
 .table-2{
     float:left;
@@ -47,6 +47,7 @@ body{
     width:400px;
     height:247px;
     padding-top:35px;
+    padding-left:10px;
     animation:TB 1s;
 }
 @keyframes MTBG{
