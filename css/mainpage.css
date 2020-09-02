@@ -32,7 +32,7 @@ body{
     height:500px;
     background-color:#ffe4c4;
 }
-.table-1{
+.table{
     float:left;
     width:400px;
     height:247px;
@@ -40,14 +40,7 @@ body{
     padding-left:10px;
     animation:TB 1s;
     background-image:url(https://tjrar.github.io/TJR.github.io/img/table.png);
-}
-.table-2{
-    float:left;
-    width:400px;
-    height:247px;
-    padding-top:35px;
-    padding-left:10px;
-    animation:TB 1s;
+    background-repeat:no-repeat
 }
 @keyframes MTBG{
     from{background-color:#ffe4c4}
