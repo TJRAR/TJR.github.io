@@ -12,7 +12,7 @@ body{
     padding-top:75px;
     letter-spacing:100px;
     text-align:center;
-    font-family:serif;
+    font-family:STKaiti;
     font-size:5em;
     color:#ffffff;
     animation:MT 2s;
@@ -37,7 +37,7 @@ body{
     width:400px;
     height:247px;
     padding-top:35px;
-    animation:TB 0.3s;
+    animation:TB 1s;
 }
 .table-2{
     float:left;
@@ -45,7 +45,7 @@ body{
     width:400px;
     height:247px;
     padding-top:35px;
-    animation:TB 0.5s;
+    animation:TB 1s;
 }
 @keyframes MTBG{
     from{background-color:#ffe4c4}
