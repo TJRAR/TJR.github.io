@@ -37,6 +37,7 @@ body{
     width:400px;
     height:247px;
     padding-top:35px;
+    padding-left:20px;
     animation:TB 1s;
     background-image:url(./img/table.png);
 }
@@ -57,6 +58,6 @@ body{
     to{color:#ffffff}
 } 
 @keyframes TB{
-    from{color:#ffe4c4;padding-top:27px}
+    from{color:#ffe4c4;padding-top:25px}
     to{color:#000000;padding-top:35px}
 }
