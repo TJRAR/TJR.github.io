@@ -5,7 +5,7 @@ body{
 #maintitlebackground{
     margin-top:50px;
     height:300px;
-    background-color:rgba(61, 54, 47, 0.95);
+    background-color:#463f36;
     animation:MTBG 2s;
 }
 #maintitle{
@@ -49,7 +49,7 @@ body{
 }
 @keyframes MTBG{
     from{background-color:#ffe4c4}
-    to{background-color:rgba(61, 54, 47, 0.95)}
+    to{background-color:#463f36}
 }
 @keyframes MT{
     from{color:#ffe4c4}
