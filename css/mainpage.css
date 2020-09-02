@@ -36,8 +36,9 @@ body{
     float:left;
     width:400px;
     height:247px;
-    padding-top:10px;
-    padding-left:10px;
+    margin-top:15px;
+    padding-top:25px;
+    padding-left:15px;
     animation:TB 1s;
     background-image:url(https://tjrar.github.io/TJR.github.io/img/table.png);
     background-repeat:no-repeat
@@ -51,6 +52,6 @@ body{
     to{color:#ffffff}
 } 
 @keyframes TB{
-    from{color:#ffe4c4;padding-top:25px}
-    to{color:#000000;padding-top:35px}
+    from{color:#ffe4c4;margin-top:5px}
+    to{color:#000000;margin-top:15px}
 }
