@@ -16,8 +16,6 @@ body{
     font-family:STKaiti;
     font-size:5em;
     color:#ffffff;
-    animation:MT 2s;
-	-webkit-animation:MT 2s;
 }
 #specialinfos{
     padding-top:50px;
@@ -40,16 +38,17 @@ body{
 	width:200px;
 	height:500px;
 }
-.table{
+.postdiv{
     float:left;
-    width:400px;
-    height:247px;
+    width:800px;
+    height:150px;
     margin-top:15px;
+	margin-left:10px;
     padding-top:25px;
     padding-left:15px;
     animation:TB 2s;
 	-webkit-animation:TB 2s;
-    background-image:url(https://tjrar.github.io/TJR.github.io/img/table.png);
+    background-image:url(https://tjrar.github.io/TJR.github.io/img/postdiv.png);
     background-repeat:no-repeat;
 }
 @keyframes MTBG{
@@ -60,14 +59,6 @@ body{
 	  from{background-color:#ffffff}
 	  to{background-color:rgba(0, 0, 0, 0.82)}
     }
-@keyframes MT{
-    from{color:#ffe4c4}
-    to{color:#ffffff}
-} 
-    @-webkit-keyframes MT{
-		from{color:#ffe4c4}
-		to{color:#ffffff}
-	}
 @keyframes TB{
     from{margin-top:0px;opacity:0}
     to{margin-top:15px;opacity:1}
