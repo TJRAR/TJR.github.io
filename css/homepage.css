@@ -6,8 +6,8 @@ body{
     margin-top:50px;
     height:300px;
     background-color:rgba(0, 0, 0, 0.82);
-    animation:MTBG 2s;
-	-webkit-animation:MTBG 2s;
+    animation:fadeIn 2s;
+	-webkit-animation:fadeIn 2s;
 }
 #maintitle{
     padding-top:75px;
@@ -46,24 +46,16 @@ body{
 	margin-left:10px;
     padding-top:25px;
     padding-left:15px;
-    animation:TB 2s;
-	-webkit-animation:TB 2s;
+    animation:fadeIn 2s;
+	-webkit-animation:fadeIn 2s;
     background-image:url(https://tjrar.github.io/TJR.github.io/img/postdiv.png);
     background-repeat:no-repeat;
 }
-@keyframes MTBG{
-    from{background-color:#ffffff}
-    to{background-color:rgba(0, 0, 0, 0.82)}
+@keyframes fadeIn{
+    from{opacity:0}
+    to{opacity:1}
 }
-    @-webkit-keyframes MTBG{
-	  from{background-color:#ffffff}
-	  to{background-color:rgba(0, 0, 0, 0.82)}
-    }
-@keyframes TB{
-    from{margin-top:0px;opacity:0}
-    to{margin-top:15px;opacity:1}
-}
-    @-webkit-keyframes TB{
-		from{margin-top:0px;opacity:0}
-		to{margin-top:15px;opacity:1}
+    @-webkit-keyframes fadeIn{
+		from{opacity:0}
+		to{opacity:1}
 	}
