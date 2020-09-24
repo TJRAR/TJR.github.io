@@ -51,6 +51,15 @@ body{
     background-image:url(https://tjrar.github.io/TJR.github.io/img/postdiv.png);
     background-repeat:no-repeat;
 }
+.family{
+	float: left;
+	width: 200px;
+	height: 124px;
+	padding-left: 15px;
+	padding-top: 15px;
+	animation: fadeIn 2s;
+	animation-delay: 1s;
+}
 @keyframes fadeIn{
     from{opacity:0}
     to{opacity:1}
