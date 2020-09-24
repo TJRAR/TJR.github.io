@@ -38,11 +38,18 @@ body{
 	width:200px;
 	height:500px;
 }
+#ceil{
+	float: left;
+	width: 800px;
+	height: 35px;
+	margin-left: 10px;
+	margin-top: 15px;
+	background-image: url(https://tjrar.github.io/TJR.github.io/img/ceil.png);
+}
 .postdiv{
     float:left;
     width:800px;
     height:150px;
-    margin-top:15px;
 	margin-left:10px;
     padding-top:25px;
     padding-left:15px;
