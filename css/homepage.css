@@ -54,7 +54,9 @@ body{
     padding-top:25px;
     padding-left:15px;
     animation:fadeIn 2s;
+	animation-delay: 1s;
 	-webkit-animation:fadeIn 2s;
+	-webkit-animation-delay: 1s;
     background-image:url(https://tjrar.github.io/TJR.github.io/img/postdiv.png);
     background-repeat:no-repeat;
 }
@@ -65,7 +67,9 @@ body{
 	padding-left: 15px;
 	padding-top: 15px;
 	animation: fadeIn 2s;
-	animation-delay: 1s;
+	animation-delay: 2s;
+	-webkit-animation: fadeIn 2s;
+	-webkit-animation-delay: 2s;
 }
 @keyframes fadeIn{
     from{opacity:0}

@@ -16,7 +16,7 @@
 	/*//*/
 	</script>
 </head>
-<body onload="fc()">
+<body onload="fc(),sto()">
     <div id="maintitlebackground">
         <div id="maintitle">
             <strong>WEALCOME</strong>
@@ -45,11 +45,22 @@
     </div>
 	
 	<script>
+
 		document.getElementById("list").style.visibility="hidden";
 		function fc(){
-			setTimeout(function(){document.getElementById("list").style.visibility="visible";},1000);
+			setTimeout(function(){document.getElementById("list").style.visibility="visible";},2000);
 		}
 		
+		divset = document.getElementsByClassName("postdiv");
+		 for (var i = 0; i<divset.length;i++) {
+		   divset[i].style.visibility="hidden";}
+		function sto(){
+			 setTimeout(function(){
+				 divset = document.getElementsByClassName("postdiv");
+			     for (var i = 0; i<divset.length;i++)
+				  divset[i].style.visibility="visible";
+				  },1000)
+				  }
 	</script>
 </body>
 </html>
