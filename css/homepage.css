@@ -45,6 +45,10 @@ body{
 	margin-left: 10px;
 	margin-top: 15px;
 	background-image: url(https://tjrar.github.io/TJR.github.io/img/ceil.png);
+	animation: fadeIn 2s;
+	animation-delay: 1s;
+	-webkit-animation: fadeIn 2s;
+	-webkit-animation-delay: 1s;
 }
 .postdiv{
     float:left;

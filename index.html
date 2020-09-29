@@ -16,7 +16,7 @@
 	/*//*/
 	</script>
 </head>
-<body onload="fc(),sto()">
+<body onload="fclist(),fcpostdiv(),fcceil()">
     <div id="maintitlebackground">
         <div id="maintitle">
             <strong>WEALCOME</strong>
@@ -47,14 +47,19 @@
 	<script>
 
 		document.getElementById("list").style.visibility="hidden";
-		function fc(){
+		function fclist(){
 			setTimeout(function(){document.getElementById("list").style.visibility="visible";},2000);
+		}
+		
+		document.getElementById("ceil").style.visibility="hidden";
+		function fcceil(){
+			setTimeout(function(){document.getElementById("ceil").style.visibility="visible";},1000);
 		}
 		
 		divset = document.getElementsByClassName("postdiv");
 		 for (var i = 0; i<divset.length;i++) {
 		   divset[i].style.visibility="hidden";}
-		function sto(){
+		function fcpostdiv(){
 			 setTimeout(function(){
 				 divset = document.getElementsByClassName("postdiv");
 			     for (var i = 0; i<divset.length;i++)
