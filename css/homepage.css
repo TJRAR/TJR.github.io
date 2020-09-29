@@ -11,7 +11,7 @@ body{
 }
 #maintitle{
     padding-top:75px;
-    letter-spacing:100px;
+    letter-spacing:75px;
     text-align:center;
     font-family:STKaiti;
     font-size:5em;
@@ -19,12 +19,12 @@ body{
 }
 #specialinfos{
     padding-top:50px;
-    padding-right:175px;
+    padding-right:75px;
     text-align:right;
-    word-spacing:85px;
+    word-spacing:50px;
     color:#ffffff;
     font-family:sans-serif;
-    font-size:1.25em;
+    font-size:1em;
 }
 #classify{
     margin-left:auto;
@@ -55,7 +55,6 @@ body{
     width:800px;
     height:150px;
 	margin-left:10px;
-    padding-top:25px;
     padding-left:15px;
     animation:fadeIn 2s;
 	animation-delay: 1s;
@@ -74,6 +73,34 @@ body{
 	animation-delay: 2s;
 	-webkit-animation: fadeIn 2s;
 	-webkit-animation-delay: 2s;
+}
+.title{
+	height: 40px;
+	width: 770px;
+	text-align: left;
+	font-family: STKaiti;
+	font-size: 2em;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.content{
+	height: 60px;
+	width: 770px;
+	text-align: left;
+	font-size: 15px;
+	font-family: sans-serif;
+	word-wrap: break-word;
+	color: rgba(132, 132, 132, 1.0);
+	overflow: hidden;
+}
+.time{
+	height: 20px;
+	width: 770px;
+	margin-top: 10px;
+	text-align: left;
+	font-size: 1.5em;
+	font-family: Times;
+	color: rgba(84, 84, 84, 1.0);
 }
 @keyframes fadeIn{
     from{opacity:0}
