@@ -1,4 +1,4 @@
-HTMLBodyElement.onload=fclist(),fcceil(),fcpostdiv()
+HTMLBodyElement.onload = fclist(), fcceil(), fcpostdiv()
 document.getElementById("list").style.visibility = "hidden";
 
 function fclist() {
