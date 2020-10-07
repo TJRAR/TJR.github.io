@@ -1,26 +1,20 @@
-HTMLBodyElement.onload = fclist(), fcceil(), fcpostdiv()
-document.getElementById("list").style.visibility = "hidden";
+fadeinByid("maintitlebackground", 2, 0, 50);
+fadeinByid("pOst", 2, 1000, 50);
+fadeinByid("ceil", 2, 1000, 50);
+fadeinByid("list",2,2000,50);
 
-function fclist() {
+function fadeinByid(iD, tIme, wAit, fPs) {
+	var dEaly = 0;
+	var ID = document.getElementById(iD);
+	ID.style.opacity = dEaly;
 	setTimeout(function() {
-		document.getElementById("list").style.visibility = "visible";
-	}, 2000);
-}
-document.getElementById("ceil").style.visibility = "hidden";
-
-function fcceil() {
-	setTimeout(function() {
-		document.getElementById("ceil").style.visibility = "visible";
-	}, 1000);
-}
-divset = document.getElementsByClassName("postdiv");
-for (var i = 0; i < divset.length; i++) {
-	divset[i].style.visibility = "hidden";
-}
-
-function fcpostdiv() {
-	setTimeout(function() {
-		divset = document.getElementsByClassName("postdiv");
-		for (var i = 0; i < divset.length; i++) divset[i].style.visibility = "visible";
-	}, 1000)
+		var interId = setInterval(function() {
+			dEaly += (100 / (tIme * fPs || 50) / 100) || 0.02;
+			console.log(dEaly);
+			ID.style.opacity = dEaly;
+			if (parseInt(dEaly) == 1) {
+				clearInterval(interId);
+			}
+		}, 1000 / fPs || 20)
+	}, wAit || 0);
 }
