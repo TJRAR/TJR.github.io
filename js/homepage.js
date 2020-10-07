@@ -10,7 +10,6 @@ function fadeinByid(iD, tIme, wAit, fPs) {
 	setTimeout(function() {
 		var interId = setInterval(function() {
 			dEaly += (100 / (tIme * fPs || 50) / 100) || 0.02;
-			console.log(dEaly);
 			ID.style.opacity = dEaly;
 			if (parseInt(dEaly) == 1) {
 				clearInterval(interId);
